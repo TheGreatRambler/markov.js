@@ -24,7 +24,8 @@ Just generate a string. If you want an array, just `.split()` it. I literally do
 
 ## Sample
 
-```
+A quality story based off of Alice in Wonderland.  
+  
 shouted the Queen in front of the house, and wondering what to do next, when suddenly a footman in livery came running out of the water, and seemed to quiver all over with diamonds, and walked two and two, as the soldiers did. After these came the royal children; there were ten of them, and the little golden key and hurried off to the garden door.
 Poor Alice! It was as much as she could guess, she was now about two feet high, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little house in it about four feet high. ‘Whoever lives there,’ thought Alice, ‘it’ll never do to come upon them this size: why, I should frighten them out of their wits!’ So she began again: ‘Ou est ma chatte?’ which was the first sentence in her French lesson-book. The Mouse gave a sudden leap out of the room. The cook threw a frying-pan after her as she spoke. ‘I must go and get ready to play croquet with the Queen,’ and she hurried out of the wood—(she considered him to be a letter, written by the prisoner to—to somebody.’
 ‘It must have been that,’ said the Cat, and vanished again.
@@ -42,7 +43,7 @@ As there seemed to be talking in his sleep, ‘that “I breathe when I sleep”
 ‘Off with her head!’ Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off this minute!’ She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.
 There were doors all round the table, but there was nothing on it except a tiny golden key, and unlocking the door that led into the garden. Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked up towards it rather timidly, saying to herself ‘That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life! I do wonder what can have happened to me! When I used to know. Let me see: I’ll give them a new pair of boots every Christmas.’
 And she went on planning to herself how she would gather about her other little children, and make their eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would manage it. ‘They must go by the carrier,’ she thought; ‘and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!
-```
+
 
 ## Notes
 * This was intended to be used for a different project, so all the references to music in the source code is just for that
