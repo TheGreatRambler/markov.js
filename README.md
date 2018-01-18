@@ -50,4 +50,4 @@ And she went on planning to herself how she would gather about her other little 
 
 ## License
 
-You wan't to know what it says? It says I dont care wether you sell it or copy it. Do what you want. Teach you cats about this code if you want. In fact, you should write the next Harry Potter with this library. Just do it.
+You wan't to know what it says? It says I dont care whether you sell it or copy it. Do what you want. Teach you cats about this code if you want. In fact, you should write the next Harry Potter with this library. Just do it.
