@@ -28,11 +28,11 @@
         var corpus = {};
         this.data.regularity = this.data.regularity || 1;
 
-        if (Object.prototype.toString.call(this.data.music) === "[object String]") {
-            musicarray = this.data.music.split(typeof this.data.delimiter !== "undefined" ? this.data.delimiter : " ");
-        } else if (this.data.music.constructor === Array) {
-            if (Object.prototype.toString.call(this.data.music[0]) === "[object String]") {
-                musicarray = this.data.music;
+        if (Object.prototype.toString.call(this.data.input) === "[object String]") {
+            musicarray = this.data.input.split(typeof this.data.delimiter !== "undefined" ? this.data.delimiter : " ");
+        } else if (this.data.input.constructor === Array) {
+            if (Object.prototype.toString.call(this.data.input[0]) === "[object String]") {
+                musicarray = this.data.input;
             } else {
                 console.warn("Data elements must be strings!");
             }
