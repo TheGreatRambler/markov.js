@@ -10,7 +10,7 @@ var markovinstance = new Markov({
 });
 ```
 
-Pretty simple, just create a new instance. The input is either an array of elements or a sentence, I don't care.
+Pretty simple, just create a new instance. The input is either an array of elements or a sentence, I don't care. The regularity controls how similar the generated sentences are to the target sentences.
 
 ## Methods
 
