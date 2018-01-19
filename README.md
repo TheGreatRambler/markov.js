@@ -1,5 +1,5 @@
 # markov.js
-Just another Markov chain library.
+Just another Markov chain library. Check out [my demo](http://thegreatrambler.com/code-demos/markov/demo.html) to experiment with it.
 
 ## API
 
