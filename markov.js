@@ -34,11 +34,7 @@
         if (Object.prototype.toString.call(this.data.input) === "[object String]") {
             musicarray = this.data.input.split(typeof this.data.delimiter !== "undefined" ? this.data.delimiter : " ");
         } else if (isArrayLike(this.data.input)) {
-            if (Object.prototype.toString.call(this.data.input[0]) === "[object String]") {
-                musicarray = this.data.input;
-            } else {
-                console.warn("Data elements must be strings!");
-            }
+            musicarray = this.data.input;
         } else {
             console.warn("Data must be an array or string!");
         }
