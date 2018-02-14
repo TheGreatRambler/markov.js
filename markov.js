@@ -24,6 +24,7 @@
     }
     var Markov = function(data) {
         this.data = data;
+        this.string = [];
         this.createCorpus();
     };
     Markov.prototype.createCorpus = function() {
