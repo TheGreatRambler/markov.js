@@ -64,23 +64,23 @@
     Markov.prototype.generate = function(length) {
         var keys = Object.keys(this.corpus);
         var firstelement = keys[~~(keys.length * Math.random())];
-        var string = firstelement.split(" ");
+        this.string = firstelement.split(" ");
         var length = length || 1000;
         for (var g = 0; g < length; g++) {
             var previouselements = [];
             for (var f = 0; f < this.data.regularity; f++) {
-                previouselements.push(string[g + f]);
+                previouselements.push(this.string[g + f]);
             }
             var possibilities = this.corpus[previouselements.join(" ")];
             if (!possibilities) {
-                return string.join(" ");
+                return this.string.join(" ");
             }
-            string.push(possibilities[~~(possibilities.length * Math.random())]);
+            this.string.push(possibilities[~~(possibilities.length * Math.random())]);
             if (!possibilities[~~(possibilities.length * Math.random())]) {
                 console.log(possibilities);
             }
         }
-        return string.join(" ");
+        return this.string.join(" ");
     };
     return Markov;
 }));
