@@ -19,6 +19,9 @@
         root.Markov = factory();
     }
 }(typeof self !== 'undefined' ? self : this, function() {
+    function isArrayLike(item) {
+        return (Array.isArray(item) || (!!item && typeof item === "object" && typeof (item.length) === "number" && (item.length === 0 || (item.length > 0 && (item.length - 1) in item))));
+    }
     var Markov = function(data) {
         this.data = data;
         this.createCorpus();
@@ -30,7 +33,7 @@
 
         if (Object.prototype.toString.call(this.data.input) === "[object String]") {
             musicarray = this.data.input.split(typeof this.data.delimiter !== "undefined" ? this.data.delimiter : " ");
-        } else if (this.data.input.constructor === Array) {
+        } else if (isArrayLike(this.data.input)) {
             if (Object.prototype.toString.call(this.data.input[0]) === "[object String]") {
                 musicarray = this.data.input;
             } else {
