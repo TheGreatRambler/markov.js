@@ -64,7 +64,7 @@
     };
     Markov.prototype.generate = function(length) {
         var keys = Object.keys(this.corpus);
-        var firstelement = keys[~~(keys.length * Math.random())];
+        var firstelement = this.data.first ? keys[0] : keys[~~(keys.length * Math.random())];
         this.string = firstelement.split(" ");
         var length = length || 1000;
         for (var g = 0; g < length; g++) {
